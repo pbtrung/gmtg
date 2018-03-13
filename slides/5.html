@@ -1,25 +1,18 @@
-<div class="container" style="position: relative; top: -50px">
-  <div class="col">
-    <div style="font-size: 25px;">
-      $$ \begin{equation*} \begin{aligned} \underset{A(x)}{\text{min}}\quad & V
-      = \int_0^l A(x)dx \\ \text{subject to}\quad & \color{blue}{w(\xi) - \Delta = 0}, \\ &
-      w(\xi) = \int_0^l \frac{M(x)m(x)}{EI(x)}dx, \\ & I(x) = \alpha[A(x)]^c.
-      \end{aligned} \end{equation*} $$
-    </div>
+<section>
+  <p style="font-size: 30px">Optimize structure geometry</p>
+  <span class="fragment fade-in">
+    <img width="800" src="resources/topopt.jpg">
+  </span>
+  <br/>
+  <div style="font-size: 20px">
+  <span class="fragment fade-in">
+    a) Sizing optimization
+  </span>
+  <span class="fragment fade-in">
+      &nbsp; &nbsp; b) Shape optimization
+  </span>
+  <span class="fragment fade-in">
+      &nbsp; &nbsp; c) Topology optimization
+  </span>
   </div>
-  <div class="col">
-    <ul style="font-size: 30px; position: relative; top: 20px">
-      <li>Need to find a function</li>
-      <li>Explicit integral constraint(s)</li>
-      <li>Deterministic quantities</li>
-    </ul>
-  </div>
-</div>
-<div style="text-align: left;">
-  <p style="font-size: 30px; position: relative; left: 100px">Using Lagrange
-  multiplier method:</p>
-  <p style="font-size: 25px">$$ \begin{equation*} A^*(x) = \frac{1}{\alpha
-  E\Delta} \left[
-  \int_0^l{\Big(M(\eta)m(\eta)\Big)^\frac{1}{2}}d\eta\right]\Big(M(x)m(x)\Big)^\frac{1}{2}
-  \end{equation*} $$</p>
-</div>
+</section>
